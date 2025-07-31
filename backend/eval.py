@@ -11,7 +11,7 @@ ys_true, ys_pred = [], []
 for path in glob.glob(TEST_DIR):
     sample = json.load(open(path))
     res = await boundly_query(Query(question=sample["q"]))
-    pred = res["answer"]["decision"].lower()  # assume your JSON schema has this
+    pred = res["answer"]["decision"].lower()  # assume JSON schema has this
     ys_true.append(sample["label"])
     ys_pred.append(pred)
 
