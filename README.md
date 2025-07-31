@@ -15,6 +15,7 @@ BoundLy_H1b/
 ├── .env         ← your secret config (gitignored)
 ├── .gitignore
 └── README.md
+```
 
 ## Getting started
 1. `python3 -m venv .venv && source .venv/bin/activate`  
