@@ -6,11 +6,13 @@
 - FastAPI endpoint wrapping an AzureOpenAI LLM for grounded answers
 
 ## Structure
-DallasAI/
-├── backend/ ← code & API
-├── data/ ← PDFs for ingest
-├── slides/ ← technical slide source
-├── .env ← your secret config (gitignored)
+
+```text
+BoundLy_H1b/
+├── backend/     ← code & API
+├── data/        ← PDFs for ingest
+├── slides/      ← technical slide source
+├── .env         ← your secret config (gitignored)
 ├── .gitignore
 └── README.md
 
