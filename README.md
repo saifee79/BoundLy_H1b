@@ -11,7 +11,6 @@
 BoundLy_H1b/
 ├── backend/
 ├── data/
-├── slides/
 ├── .env
 ├── .gitignore
 └── README.md
