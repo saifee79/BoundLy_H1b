@@ -9,10 +9,10 @@
 
 ```text
 BoundLy_H1b/
-├── backend/     ← code & API
-├── data/        ← PDFs for ingest
-├── slides/      ← technical slide source
-├── .env         ← your secret config (gitignored)
+├── backend/
+├── data/
+├── slides/
+├── .env
 ├── .gitignore
 └── README.md
 ```
