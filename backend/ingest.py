@@ -51,7 +51,7 @@ async def main():
                     })
 
     texts = [d["content"] for d in docs]
-    batch_size = 20  # throttle to stay within your quota
+    batch_size = 20  # throttle to stay within quota
 
     # 2) Embed in small batches with retry/backoff + pause
     for i in range(0, len(texts), batch_size):
