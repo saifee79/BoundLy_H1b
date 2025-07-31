@@ -1,0 +1,27 @@
+# Core LangChain utilities for splitting
+langchain==0.2.*
+
+# PDF loader
+langchain-community>=0.2.0
+
+# Azure OpenAI client
+openai>=1.40.0,<2.0.0
+
+# Tokenizer (if used by LangChain)
+tiktoken>=0.7.0,<1.0.0
+
+# Retry/backoff
+tenacity>=8.0.0
+
+# Web framework & server
+fastapi==0.111.*
+uvicorn[standard]==0.29.*
+
+# Elasticsearch for vector store
+elasticsearch==8.13.*
+
+# .env loader
+python-dotenv==1.0.*
+
+# Evaluation helpers
+scikit-learn==1.4.*
