@@ -44,7 +44,7 @@ async def boundly_query(q: Query):
             messages=messages,
             temperature=0.2,
             top_p=0.95,
-            response_format={"type": "json_object"},   # <-- updated here
+            response_format={"type": "json_object"},
         )
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
